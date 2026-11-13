@@ -15,9 +15,9 @@ np.random.seed(39)
 
 
 FILES = (
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4718_k90.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4718_k90_loto_2981.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4718_k90_loto_plus_1737.csv"),
+    Path("/data/loto7_4718_k90.csv"),
+    Path("/data/loto7_4718_k90_loto_2981.csv"),
+    Path("/data/loto7_4718_k90_loto_plus_1737.csv"),
 )
 
 
@@ -186,17 +186,17 @@ Metoda: Quantum Casimir Vacuum Mode Disruption (1x5 qubita, 32 pozicije)
 CSV: loto7_4718_k90.csv
 Validacija NLL (t=1.0): 38.9327
 Test NLL: 38.6215
-NEXT: [1, 7, 11, 14, 32, 33, 39]
+NEXT: [1, x, 11, y, 32, z, 39]
 
 CSV: loto7_4718_k90_loto_2981.csv
 Validacija NLL (t=1.0): 38.9957
 Test NLL: 39.4199
-NEXT: [3, 7, 9, 18, 22, 35, 39]
+NEXT: [3, x, 9, y, 22, z, 39]
 
 CSV: loto7_4718_k90_loto_plus_1737.csv
 Validacija NLL (t=1.0): 38.0824
 Test NLL: 38.1612
-NEXT: [1, 2, 11, 14, 33, 34, 38]
+NEXT: [1, x, 11, y, 33, z, 38]
 """
 
 
